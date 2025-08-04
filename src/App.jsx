@@ -11,6 +11,7 @@ import JSCZones from '@/pages/JSCZones';
 import Events from '@/pages/Events';
 import Sermons from '@/pages/Sermons';
 import Contact from '@/pages/Contact';
+import Admin from '@/pages/Admin';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/sermons" element={<Sermons />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </main>
         <Footer />
